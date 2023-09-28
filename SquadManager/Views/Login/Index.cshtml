@@ -1,0 +1,22 @@
+﻿@model SquadManager.Models.UserViewModel
+
+@{
+	Layout = null;
+	ViewData["Tittle"] = "Login";
+}
+
+<link href="~/css/login.css" rel="stylesheet" />
+
+<section>
+	<h1>Autenticação</h1>
+	<form>
+		<input type="email" id="email" name="email" value="@Model.Email" placeholder="Username/E-mail" required />
+		<input type="password" id="password" name="password" value="@Model.Password" placeholder="Senha" required />
+		<a href="Login/Forgot" style="margin-top: 8px;">Esqueceu a senha?</a>
+		<button type="submit" id="bntLogin" data-url="@Url.Action("Edit","User")" style="margin-top: 15px;">Login</button>
+	</form>
+	<label>Não tem conta? <a href="Login/SignUp">Crie aqui</a></label>
+</section>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/login.js"></script>

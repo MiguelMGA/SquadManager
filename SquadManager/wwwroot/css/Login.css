@@ -1,0 +1,60 @@
+﻿* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    border: 1px solid #000;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form a {
+    text-align: right;
+}
+
+input {
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00CD00;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+label {
+    margin: 15px 0px 30px 0px;
+}
+
+.error {
+    height: 20px;
+    padding: 5px;
+}
+
+.error span {
+    color: red;
+}

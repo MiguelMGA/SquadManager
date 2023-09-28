@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.UserController.Login(Common.UserModel)">
+            <summary>
+            Autentica o usuário
+            </summary>
+            <param name="user">Username e Senha do usuário</param>
+            <returns>OK</returns>
+        </member>
+        <member name="M:API.Controllers.UserController.Create(Common.UserModel)">
+            <summary>
+            API para criação de usuário
+            </summary>
+            <param name="user">Recebe o Username, Email, Senha e confirmação de senha do usuário</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserController.Update(Common.UserModel)">
+            <summary>
+            API para edição de usuário
+            </summary>
+            <param name="user"></param>
+            <returns>Retorna OK</returns>
+        </member>
+        <member name="M:API.Controllers.UserController.Forgot(System.String)">
+            <summary>
+            API para recuperação de senha do usuário
+            </summary>
+            <param name="email">Recebe o email do usuário</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserController.Reset(Common.UserModel)">
+            <summary>
+            API para resetar a senha do usuário
+            </summary>
+            <param name="user">Senha e confirmação da nova senha</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

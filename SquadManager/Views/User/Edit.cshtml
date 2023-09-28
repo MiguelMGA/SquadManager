@@ -1,0 +1,31 @@
+﻿@model SquadManager.Models.UserViewModel
+@{
+	ViewData["Title"] = "Editar conta";
+}
+
+<link href="~/css/user.css" rel="stylesheet" />
+
+<section>
+	<h2>Editar conta</h2>
+	<form>
+		@Html.HiddenFor(o => o.UserId)
+		@Html.HiddenFor(o => o.PersonId)
+		<input value="@Model.Username" class="form-control" type="text" id="username" placeholder="Username" required />
+		<input value="@Model.Email" class="form-control" type="email" id="email" placeholder="E-mail" required />
+		<input class="form-control" type="password" id="password" placeholder="Senha" required />
+		<input class="form-control" type="password" id="confirmPassword" placeholder="Confirmar senha" required />
+		<div>
+			<span hidden>Senhas diferentes</span>
+		</div>
+		<button class="btn btn-primary">Salvar</button>
+	</form>
+</section>
+
+
+
+@section Scripts {
+	<script src="c:\users\miguel aguiar\source\repos\squadmanager\squadmanager\wwwroot\js\user.js"></script>
+	<script>
+		changeMenu('user')
+	</script>
+}

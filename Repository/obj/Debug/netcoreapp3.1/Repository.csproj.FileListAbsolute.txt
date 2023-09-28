@@ -1,0 +1,12 @@
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Users\Miguel Aguiar\source\repos\SquadManager\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

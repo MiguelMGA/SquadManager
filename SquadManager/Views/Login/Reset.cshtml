@@ -1,0 +1,23 @@
+﻿@model SquadManager.Models.UserViewModel
+
+@{
+	Layout = null;
+	ViewData["Tittle"] = "Reset de senha";
+}
+
+<link href="~/css/login.css" rel="stylesheet" />
+
+<section>
+	<h1>Redefinir a Senha</h1>
+	<form>
+		<input id="password" type="password" name="password" placeholder="Senha" required />
+		<input id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirmar senha" required />
+		<div class="error">
+			<span hidden>Senhas diferentes!</span>
+		</div>
+		<button type="submit" style="margin-top:25px;">Enviar</button>
+	</form>
+</section>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/reset.js"></script>
